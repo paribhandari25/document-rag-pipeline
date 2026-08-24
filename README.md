@@ -16,6 +16,8 @@ The architecture is built as a modular, high-throughput pipeline transitioning r
 
 <img width="771" height="431" alt="image" src="https://github.com/user-attachments/assets/94dec875-1d45-4293-a1b8-af73d605e24f" />
 
+
+
 <img width="773" height="359" alt="image" src="https://github.com/user-attachments/assets/9633a2b6-1597-4e80-8916-9a5de4afd372" />
 
 
