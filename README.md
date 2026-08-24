@@ -14,6 +14,11 @@ The architecture is built as a modular, high-throughput pipeline transitioning r
 3. **Indexing & Retrieval:** Built on top of `LlamaIndex` to structure vector index representations. The query pipeline leverages semantic similarity thresholds to surface optimal parent/child context blocks.
 4. **Augmented Response Generation:** Feeds the context-aligned text segments directly into a grounded open-source LLM layer, executing precise information search while eliminating hallucination bounds.
 
+<img width="771" height="431" alt="image" src="https://github.com/user-attachments/assets/94dec875-1d45-4293-a1b8-af73d605e24f" />
+
+<img width="773" height="359" alt="image" src="https://github.com/user-attachments/assets/9633a2b6-1597-4e80-8916-9a5de4afd372" />
+
+
 ---
 
 ## Tech Stack & Dependencies
