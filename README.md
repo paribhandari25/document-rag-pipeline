@@ -1,11 +1,11 @@
 # Document Intelligence Retrieval System (RAG Pipeline)
 
-## 💼 Context
+## Problem Context
 Developed during an **AI and Automation Externship at Outamation**. This project addresses the challenge of automated text extraction, classification, and context-aware semantic search over dense, unstructured corporate financial and mortgage documentation.
 
 ---
 
-## 🏗️ System Architecture & Workflow
+## System Architecture & Workflow
 
 The architecture is built as a modular, high-throughput pipeline transitioning raw, multi-format PDFs into an indexable knowledge base:
 
@@ -16,7 +16,7 @@ The architecture is built as a modular, high-throughput pipeline transitioning r
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 - **Framework orchestration:** `LlamaIndex`
 - **Data Preprocessing & Parsers:** Python, `PyMuPDF`, `Tesseract OCR`
@@ -25,7 +25,7 @@ The architecture is built as a modular, high-throughput pipeline transitioning r
 
 ---
 
-## ⚡ Key Engineering Engineering Trade-Offs
+## Key Engineering Engineering Trade-Offs
 
 - **Chunk Window Optimization:** Balanced embedding precision vs. context fragmentation. The pipeline applies a sliding character chunk overlap window to preserve continuity without blowing past the upstream token constraints of the LLM.
 - **Enterprise Data Compliance:** Designed with a zero-external-storage mindset. Document processing pipelines execute locally or within secure enterprise clusters to guarantee that sensitive consumer mortgage metrics remain completely uncompromised.
